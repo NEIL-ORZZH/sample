@@ -2042,9 +2042,13 @@ containing a value of this type.
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020031;
         public static final int abc_textfield_search_material=0x7f020032;
         public static final int banner_background=0x7f020033;
-        public static final int ic_launcher=0x7f020034;
-        public static final int subscribe_icon=0x7f020035;
-        public static final int tab_selector=0x7f020036;
+        public static final int drak_black=0x7f020034;
+        public static final int ic_launcher=0x7f020035;
+        public static final int image_bg=0x7f020036;
+        public static final int mutiitem_selector=0x7f020037;
+        public static final int normal_black=0x7f020038;
+        public static final int subscribe_icon=0x7f020039;
+        public static final int tab_selector=0x7f02003a;
     }
     public static final class id {
         public static final int action_bar=0x7f090038;
@@ -2060,7 +2064,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f090035;
         public static final int action_mode_bar_stub=0x7f090034;
         public static final int action_mode_close_button=0x7f090027;
-        public static final int action_settings=0x7f09004f;
+        public static final int action_settings=0x7f090052;
         public static final int activity_chooser_view_content=0x7f090028;
         public static final int always=0x7f090014;
         public static final int beginning=0x7f09001b;
@@ -2076,7 +2080,7 @@ containing a value of this type.
         public static final int disableHome=0x7f09000d;
         public static final int dropdown=0x7f09001a;
         public static final int edit_query=0x7f09003a;
-        public static final int emptyview=0x7f09004e;
+        public static final int emptyview=0x7f090051;
         public static final int end=0x7f09001c;
         public static final int expand_activities_button=0x7f090029;
         public static final int expanded_menu=0x7f09002f;
@@ -2086,6 +2090,7 @@ containing a value of this type.
         public static final int ifRoom=0x7f090016;
         public static final int image=0x7f09002a;
         public static final int indicator_line=0x7f090048;
+        public static final int item_content=0x7f09004f;
         public static final int listMode=0x7f09000a;
         public static final int list_item=0x7f09002c;
         public static final int middle=0x7f09001d;
@@ -2097,6 +2102,7 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f090008;
         public static final int radio=0x7f090032;
         public static final int radiogroup=0x7f090047;
+        public static final int radipgroup=0x7f09004e;
         public static final int repeat=0x7f090020;
         public static final int search_badge=0x7f09003c;
         public static final int search_bar=0x7f09003b;
@@ -2117,13 +2123,14 @@ containing a value of this type.
         public static final int swiperefreshlayout=0x7f09004b;
         public static final int tabMode=0x7f09000c;
         public static final int tab_indicator=0x7f090046;
+        public static final int thumb_item=0x7f09004d;
         public static final int title=0x7f09002e;
         public static final int top=0x7f090024;
         public static final int triangle=0x7f090021;
         public static final int underline=0x7f090022;
         public static final int up=0x7f090001;
         public static final int useLogo=0x7f090013;
-        public static final int viewpager=0x7f09004d;
+        public static final int viewpager=0x7f090050;
         public static final int vpager=0x7f090049;
         public static final int withText=0x7f090018;
         public static final int wrap_content=0x7f090009;
@@ -2187,10 +2194,12 @@ containing a value of this type.
         public static final int fragment_channel=0x7f030019;
         public static final int fragment_cinma=0x7f03001a;
         public static final int fragment_recommend=0x7f03001b;
-        public static final int slidingitem=0x7f03001c;
-        public static final int slidingview=0x7f03001d;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
-        public static final int tab_radio=0x7f03001f;
+        public static final int home_item=0x7f03001c;
+        public static final int mutiitem=0x7f03001d;
+        public static final int slidingitem=0x7f03001e;
+        public static final int slidingview=0x7f03001f;
+        public static final int support_simple_spinner_dropdown_item=0x7f030020;
+        public static final int tab_radio=0x7f030021;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
