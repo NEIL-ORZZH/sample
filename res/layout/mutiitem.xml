@@ -33,45 +33,65 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="8dip"
                 android:orientation="horizontal" >
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:button="@null"
-                    android:paddingLeft="8dip"
-                    android:paddingRight="8dip"
-                    android:text="上海"
-                    android:textColor="@drawable/mutiitem_selector"
-                    android:textSize="14sp" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:button="@null"
-                    android:paddingLeft="8dip"
-                    android:paddingRight="8dip"
-                    android:text="上海"
-                    android:textColor="@drawable/mutiitem_selector"
-                    android:textSize="14sp" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:button="@null"
-                    android:checked="true"
-                    android:paddingLeft="8dip"
-                    android:paddingRight="8dip"
-                    android:text="上海"
-                    android:textColor="@drawable/mutiitem_selector"
-                    android:textSize="14sp" />
             </RadioGroup>
         </LinearLayout>
 
-        <FrameLayout
-            android:id="@+id/item_content"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-        </FrameLayout>
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/thumb_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip" >
+
+                <ImageView
+                    android:id="@+id/thumb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/banner_background" />
+
+                <ImageView
+                    android:id="@+id/mask"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/image_bg" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="24dip"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff00"
+                    android:padding="3dip"
+                    android:text="何以笙箫默"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dip"
+                    android:text="钟汉良唐嫣极致虐恋" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gridview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>
